@@ -16,6 +16,12 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
+/**
+ * @author Sandra
+ * @author Alexis
+ * @author Miguel
+ */
+
 @Entity
 @Table(name = "usuarios")
 public class Usuario implements Serializable {

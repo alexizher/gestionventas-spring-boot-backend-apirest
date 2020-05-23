@@ -18,6 +18,12 @@ import org.springframework.transaction.annotation.Transactional;
 import com.gestionventas.springboot.backend.apirest.models.dao.IUsuarioDao;
 import com.gestionventas.springboot.backend.apirest.models.entity.Usuario;
 
+/**
+ * @author Sandra
+ * @author Alexis
+ * @author Miguel
+ */
+
 @Service
 public class UsuarioService implements IUsuarioService, UserDetailsService {
 

@@ -8,6 +8,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * @author Sandra
+ * @author Alexis
+ * @author Miguel
+ */
+
 @Entity
 @Table(name = "regiones")
 public class Region implements Serializable {

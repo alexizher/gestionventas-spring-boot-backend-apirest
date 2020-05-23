@@ -5,6 +5,12 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.gestionventas.springboot.backend.apirest.models.entity.Usuario;
 
+/**
+ * @author Sandra
+ * @author Alexis
+ * @author Miguel
+ */
+
 public interface IUsuarioDao extends CrudRepository<Usuario, Long>{
 	
 	public Usuario findByUsername(String username);

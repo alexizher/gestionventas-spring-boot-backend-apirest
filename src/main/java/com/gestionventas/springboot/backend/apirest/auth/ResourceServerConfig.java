@@ -15,6 +15,12 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+/**
+ * @author Sandra
+ * @author Alexis
+ * @author Miguel
+ */
+
 @Configuration
 @EnableResourceServer
 public class ResourceServerConfig  extends ResourceServerConfigurerAdapter{

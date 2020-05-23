@@ -13,6 +13,12 @@ import org.springframework.stereotype.Component;
 import com.gestionventas.springboot.backend.apirest.models.entity.Usuario;
 import com.gestionventas.springboot.backend.apirest.models.services.IUsuarioService;
 
+/**
+ * @author Sandra
+ * @author Alexis
+ * @author Miguel
+ */
+
 @Component
 public class InfoAdicionalToken implements TokenEnhancer{
 	

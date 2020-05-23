@@ -15,6 +15,11 @@ import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+/**
+ * @author Sandra
+ * @author Alexis
+ * @author Miguel
+ */
 
 @Service
 public class UploadFileServiceImpl implements IUploadFileService{
