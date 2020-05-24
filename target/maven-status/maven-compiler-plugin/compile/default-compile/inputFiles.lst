@@ -11,12 +11,9 @@ D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\s
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\dao\IClienteDao.java
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\services\UploadFileServiceImpl.java
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\controllers\ClienteRestController.java
-D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\entity\Producto.java
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\services\IUsuarioService.java
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\auth\AuthorizationServerConfig.java
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\auth\ResourceServerConfig.java
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\entity\Usuario.java
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\services\IUploadFileService.java
-D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\entity\Factura.java
 D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\entity\Rol.java
-D:\Alexis\Documents\NetBeansProjects\gestionventas-spring-boot-backend-apirest\src\main\java\com\gestionventas\springboot\backend\apirest\models\entity\ItemFactura.java
