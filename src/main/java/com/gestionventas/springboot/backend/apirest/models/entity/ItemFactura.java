@@ -6,6 +6,7 @@
 package com.gestionventas.springboot.backend.apirest.models.entity;
 
 import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;

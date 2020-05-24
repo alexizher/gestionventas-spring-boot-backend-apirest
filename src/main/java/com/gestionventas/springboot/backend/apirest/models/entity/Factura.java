@@ -9,6 +9,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -30,7 +31,7 @@ import javax.persistence.TemporalType;
  * @author Miguel
  */
 @Entity
-@Table(name = "facturtas")
+@Table(name = "facturas")
 public class Factura implements Serializable {
 
     @Id
@@ -47,7 +48,7 @@ public class Factura implements Serializable {
     private Cliente cliente;
 
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name = "facutras_id")
+    @JoinColumn(name = "factura_id")
     private List<ItemFactura> items;
 
     public Factura() {
