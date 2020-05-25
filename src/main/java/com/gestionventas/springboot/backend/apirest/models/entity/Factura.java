@@ -25,6 +25,8 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  * @author Sandra
  * @author Alexis
@@ -44,6 +46,7 @@ public class Factura implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date createAt;
 
+    @JsonIgnoreProperties({"facturas"})
     @ManyToOne(fetch = FetchType.LAZY)
     private Cliente cliente;
 
