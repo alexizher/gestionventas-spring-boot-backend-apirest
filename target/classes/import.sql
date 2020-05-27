@@ -37,13 +37,17 @@ INSERT INTO usuarios_roles (usuario_id, role_id) VALUES (3, 2);
 INSERT INTO usuarios_roles (usuario_id, role_id) VALUES (3, 1);
 
 /* Populate tabla productos */
-INSERT INTO productos (nombre, precio, create_at) VALUES('Panasonic Pantalla LCD', 259990, NOW());
-INSERT INTO productos (nombre, precio, create_at) VALUES('Sony Camara digital DSC-W320B', 123490, NOW());
-INSERT INTO productos (nombre, precio, create_at) VALUES('Apple iPod shuffle', 1499990, NOW());
-INSERT INTO productos (nombre, precio, create_at) VALUES('Sony Notebook Z110', 37990, NOW());
-INSERT INTO productos (nombre, precio, create_at) VALUES('Hewlett Packard Multifuncional F2280', 69990, NOW());
-INSERT INTO productos (nombre, precio, create_at) VALUES('Bianchi Bicicleta Aro 26', 69990, NOW());
-INSERT INTO productos (nombre, precio, create_at) VALUES('Mica Comoda 5 Cajones', 299990, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Tela Antifluido', 259990, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Sedas lisas y estampadas', 123490, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Chantú', 1499990, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Satines', 37990, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Stretch', 69990, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Chifones', 69990, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Linos variados', 299990, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Dacrones estampados y lisos', 6700, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Blonda', 12000, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Viscosa', 13000, NOW());
+INSERT INTO productos (nombre, precio, create_at) VALUES('Chalis', 14000, NOW());
 
 /* Creamos algunas facturas */
 INSERT INTO facturas (descripcion, observacion, cliente_id, create_at) VALUES('Factura equipos de oficina', null, 1, NOW());
