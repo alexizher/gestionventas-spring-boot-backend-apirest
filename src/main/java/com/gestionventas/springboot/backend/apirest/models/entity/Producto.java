@@ -7,6 +7,7 @@ package com.gestionventas.springboot.backend.apirest.models.entity;
 
 import java.io.Serializable;
 import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,8 +19,9 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 /**
- *
+ * @author Sandra
  * @author Alexis
+ * @author Miguel
  */
 @Entity
 @Table(name = "productos")
