@@ -70,7 +70,7 @@ public class ClienteRestController {
     }
 
     //Consulta de usuario por id y su manejo de error
-    //@Secured({"ROLE_USER", "ROLE_ADMIN"})
+    @Secured({"ROLE_USER", "ROLE_ADMIN"})
     @GetMapping("/clientes/{id}")
     public ResponseEntity<?> show(@PathVariable Long id) {
 
